@@ -8,9 +8,9 @@
     <version>40</version>
   </parent>
 
-  <groupId>com.nickwongdev</groupId>
+  <groupId>com.github.aaitmouloud</groupId>
   <artifactId>aspectj-maven-plugin</artifactId>
-  <version>1.12.1</version>
+  <version>1.12.2</version>
   <packaging>maven-plugin</packaging>
 
   <name>Mojo's AspectJ Maven Plugin - NickWongDev Fork</name>
@@ -35,25 +35,25 @@
 
   <issueManagement>
     <system>GitHub</system>
-    <url>https://github.com/nickwongdev/aspectj-maven-plugin/issues/</url>
+    <url>https://github.com/aaitmouloud/aspectj-maven-plugin/issues/</url>
   </issueManagement>
 
   <scm>
-    <connection>scm:git:https://github.com/nickwongdev/aspectj-maven-plugin.git</connection>
-    <developerConnection>scm:git:ssh://git@github.com/nickwongdev/aspectj-maven-plugin.git</developerConnection>
-    <url>https://github.com/nickwongdev/aspectj-maven-plugin</url>
-    <tag>aspectj-maven-plugin-1.12.1</tag>
+    <connection>scm:git:https://github.com/aaitmouloud/aspectj-maven-plugin.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/aaitmouloud/aspectj-maven-plugin.git</developerConnection>
+    <url>https://github.com/aaitmouloud/aspectj-maven-plugin</url>
+    <tag>aspectj-maven-plugin-1.12.2</tag>
   </scm>
-  <distributionManagement>
-      <snapshotRepository>
-          <id>sonatype-snapshot</id>
-          <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-      </snapshotRepository>
-      <repository>
-          <id>sonatype-release</id>
-          <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
-      </repository>
-  </distributionManagement>
+    <distributionManagement>
+        <snapshotRepository>
+            <id>ossrh</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+        </snapshotRepository>
+        <repository>
+            <id>ossrh</id>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+        </repository>
+    </distributionManagement>
   <developers>
     <developer>
       <id>kaare</id>
